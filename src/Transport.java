@@ -27,7 +27,7 @@ public class Transport {
     }
 
     public void setSeats(int seats) {
-        if (0 < this.seats && this.seats < 10) {
+        if (0 < seats && seats < 10) {
             this.seats = seats;
         }
         else {

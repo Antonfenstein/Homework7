@@ -22,10 +22,14 @@ public class Calculation {
             if (arrayTen[i] % 2 == 0) {
                 evenArray[count] = arrayTen[i];
 
-                System.out.println(evenArray[count]);
                 count++;
             }
 
+        }
+        int newCount = 0;
+        while (newCount <= evenArray.length - 1) {
+            System.out.println(evenArray[newCount]);
+            newCount++;
         }
 
     }
